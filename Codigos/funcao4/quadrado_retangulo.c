@@ -3,8 +3,8 @@
 
 
 //Prototipos
-int tipoFigura(int a, int l);
-int calcArea(int a, int l);
+int tipoFigura(int a, int b);
+int calcArea(int a, int b);
 
 int main(int argc, char const *argv[])
 {
