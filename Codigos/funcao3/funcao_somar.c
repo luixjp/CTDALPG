@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 
-int somar(x, y) {
+int somar(int x, int y) {
 
     int res=0;
 
