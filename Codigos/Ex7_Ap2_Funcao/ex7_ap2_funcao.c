@@ -90,9 +90,10 @@ int* ordenaInteiro(int a, int b, int c) {
     */
 
     //Exemplo fazendo a ordenação com laços 'for'
-    for(int i = 0; i < 3; i++) { //percorrendo o vetor
+    int i, j;
+    for(i = 0; i < 3; i++) { //percorrendo o vetor
         int menor = i;
-        for(int j = i + 1; j < 3; j++) { //varendo as próximas posições do vetor
+        for(j = i + 1; j < 3; j++) { //varendo as próximas posições do vetor
             if (r[j] < r[menor]) 
                 menor = j; //se encontrar um menor coloca o index na variavel 'menor' 
         }
